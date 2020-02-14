@@ -3,12 +3,13 @@ package ui;
 import domain.*;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class CalendarUI {
     static final String NL = "\r\n";
     private static MonthConverter mc = new MonthConverter();
     private Calendar calendar;
-    private XMLReader xmlReader = new XMLReader("/Users/arnevandoorslaer/OneDriveUCLL/Free-Time/src/kalender.xml");
+    private XMLReader xmlReader = new XMLReader("C:\\Users\\XPS15\\Documents\\Programming\\PersonalProjects\\ICAL\\src\\kalender.xml");
     private ArrayList<String> activiteitenArray = xmlReader.getXmlArray();
 
     public CalendarUI(String name) {
@@ -21,7 +22,11 @@ public class CalendarUI {
     private void fill() {
         for (int i = 0; i < activiteitenArray.size(); i++) {
             String temp = activiteitenArray.get(i);
+            if(Character.isDigit(temp.charAt(0))){
+                temp = "random " + temp;
+            }
             String[] activiteitArray = temp.split("TAB");
+            System.out.println(temp);
             String datum = activiteitArray[0].split(" ")[1];
             if (Integer.parseInt(datum) < 10) {
                 datum = "0" + datum;
@@ -37,8 +42,8 @@ public class CalendarUI {
             String DTEND = "";
 
 
-            String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2018" : "2019";
-            if (!(naam.equals("GEEN ACTIVITEIT") || naam.equals("GEEN ACTIVITEIT wegens examens leiding"))) {
+            String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2019" : "2020";
+            if (!(naam.contains("GEEN ACTIVITEIT"))) {
                 locatie = activiteitArray[2];
                 locatie = locatie.replace('–', '-');
                 try {
@@ -64,31 +69,46 @@ public class CalendarUI {
                     DTEND = jaar + maand + datum + "T" + "235959";
                 }
 
-                locatie = locatie.split(":")[0];
+                locatie = "Waar: " +locatie.split(":")[0];
                 wie = activiteitArray[3];
                 try {
-                    extra = activiteitArray[4] + "," + wie;
+                    extra = "Extra:\\n" + activiteitArray[4] + "\\nWie: " + wie;
                 } catch (ArrayIndexOutOfBoundsException e) {
-                    extra = wie;
+                    if(wie.charAt(0)=='v'){
+                        extra = "Extra: " + wie;
+                    }else{
+                        extra = "Wie: " + wie;
+                    }
+
                 }
 
             } else {
                 DTSTART = jaar + maand + datum + "T" + "000000";
                 DTEND = jaar + maand + datum + "T" + "235959";
             }
-            if (naam.equals("Weekend") || naam.equals("KAMP")) {
+
+            ArrayList<String> weekends = new ArrayList<>(Arrays.asList(new String[]{"WEEKEND","KAMP","OPKIKKER","SLAAPFEESTJE"}));
+            if (weekends.contains(naam.toUpperCase())) {
                 String sdatum = activiteitArray[0].split(" ")[1];
-                String edatum = activiteitArray[0].split("t.e.m.")[1];
+                String edatum;
+                try{
+                    edatum = activiteitArray[0].split("-")[1];
+                }catch(ArrayIndexOutOfBoundsException e){
+                    edatum = activiteitArray[0].split("t.e.m.")[1];
+                }
                 edatum = edatum.substring(edatum.indexOf('g') + 2);
                 edatum = edatum.split(" ")[0];
+                edatum = String.valueOf(Integer.parseInt(edatum)+1);
                 if (Integer.parseInt(edatum) < 10) {
                     edatum = "0" + edatum;
                 }
                 if (Integer.parseInt(sdatum) < 10) {
                     sdatum = "0" + sdatum;
                 }
-                DTSTART = jaar + maand + sdatum + "T" + "000000";
-                DTEND = jaar + maand + edatum + "T" + "235959";
+                DTSTART = jaar + maand + sdatum;// + "T" + "000000";
+                DTEND = jaar + maand + edatum;// + "T" + "235959";
+                System.out.println(DTSTART);
+                System.out.println(DTEND);
             }
 
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie);

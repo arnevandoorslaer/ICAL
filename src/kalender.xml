@@ -308,751 +308,534 @@
                     <Data ss:Type="String">Meebrengen</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="18">
-                <Cell ss:StyleID="s22">
-                    <Data ss:Type="String">Zaterdag 22 september</Data>
+            <Row ss:Index="2" ss:Height="19">
+                <Cell ss:StyleID="S23"><Data ss:Type="String">Zaterdag 14 september</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Startdag</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Startdag</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s24">
-                    <Data ss:Type="String">Iedereen is welkom</Data>
+                <Cell ss:StyleID="S25"><Data ss:Type="String">Iedereen is welkom</Data>
                 </Cell>
-                <Cell ss:StyleID="s23"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 29 september</Data>
+            <Row ss:Index="3" ss:Height="18">
+                <Cell ss:StyleID="S23"><Data ss:Type="String">Zaterdag 21 september</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Kennismaking</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Kennismaking </Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s23"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s27"/>
-                <Cell ss:StyleID="s28"/>
-                <Cell ss:StyleID="s28"/>
-                <Cell ss:StyleID="s28"/>
-                <Cell ss:StyleID="s28"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s29">
-                    <Data ss:Type="String">Zaterdag 6 oktober</Data>
+            <Row ss:Index="4" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 28 september</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Doop</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Doop</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Kleren die (heel) vuil mogen worden</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Kleren die (heel) vuil mogen worden </Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zondag 7 oktober</Data>
+            <Row ss:Index="5" ss:Height="17">
+                <Cell ss:StyleID="S28" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+            </Row>
+            <Row ss:Index="6" ss:Height="18">
+                <Cell ss:StyleID="S30"><Data ss:Type="String">Zaterdag 5 oktober</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Misviering</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Vriendjesdag</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Kerk: 9u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s24">
-                    <Data ss:Type="String">Iedereen is welkom</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Een van je vriendjes </Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 13 oktober</Data>
+            <Row ss:Index="7" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 12 oktober</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Vriendjesdag</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Knutselen</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Een van je vriendjes</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 20 oktober</Data>
+            <Row ss:Index="8" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 19 oktober</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Knutselen</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Fotozoektocht</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Witte T-shirt</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 27 oktober</Data>
+            <Row ss:Index="9" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 26 oktober</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Bietentocht</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">KLJ-klassiekers</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">De Zaligmaker: 19u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s31">
-                    <Data ss:Type="String">Iedereen is welkom</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
+            <Row ss:Index="10" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s22">
-                    <Data ss:Type="String">Zaterdag 3 november</Data>
+            <Row ss:Index="11" ss:Height="17">
+                <Cell ss:StyleID="S23"><Data ss:Type="String">Zaterdag 2 november </Data>
                 </Cell>
-                <Cell ss:StyleID="s34">
-                    <Data ss:Type="String">Fotozoektocht</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Bietentocht</Data>
                 </Cell>
-                <Cell ss:StyleID="s34">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Café De Zaligmaker</Data>
                 </Cell>
-                <Cell>
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
+                <Cell ss:StyleID="S33"><Data ss:Type="String">vanaf 19u30</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Vrijdag 9 november</Data>
+            <Row ss:Index="12" ss:Height="18">
+                <Cell ss:StyleID="S23"><Data ss:Type="String">Vrijdag 8 november</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Filmavond</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Filmavond </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld </Data>
                 </Cell>
-                <Cell ss:StyleID="s36">
-                    <Data ss:Type="String" x:Ticked="1">+12</Data>
+                <Cell ss:StyleID="S34"><Data ss:Type="String">+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld </Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 10 november</Data>
+            <Row ss:Index="13" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 9 november</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Filmnamiddag</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Filmnamiddag</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s36">
-                    <Data ss:Type="Number">-12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 17 november</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Gezelschapsspelletjes</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 24 november</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Pleinspelen</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s27"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 1 december</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Sinterklaasspel</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 8 december</Data>
-                </Cell>
-                <Cell ss:StyleID="s34">
-                    <Data ss:Type="String">Mini-quiz</Data>
-                </Cell>
-                <Cell ss:StyleID="s34">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S34"><Data ss:Type="Number">-12</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 15 december</Data>
+            <Row ss:Index="14" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 16 november</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Knutselen</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Schaatsen</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Lokaal: 13u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s38">
-                    <Data ss:Type="String">Zaterdag 22 december</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Kerstfeestje</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 19u - 21u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s22">
-                    <Data ss:Type="String">Zaterdag 29 december</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">GEEN ACTIVITEIT</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Ouders die willen rijden + €6</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s39"/>
-                <Cell ss:StyleID="s40"/>
-                <Cell ss:StyleID="s40"/>
-                <Cell ss:StyleID="s40"/>
-                <Cell ss:StyleID="s40"/>
+            <Row ss:Index="15" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 23 november</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Gezelschapsspelletjes</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="18">
-                <Cell ss:StyleID="s22">
-                    <Data ss:Type="String">Zaterdag 5 januari</Data>
+            <Row ss:Index="16" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 30 november</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Driekoningen</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Pleinspelen </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 12 januari</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Casino</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
+            <Row ss:Index="17" ss:Height="17">
+                <Cell ss:StyleID="S28" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 19 januari</Data>
+            <Row ss:Index="18" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 7 december</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Knutselen</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Sinterklaasspel</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 26 januari</Data>
+            <Row ss:Index="19" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 14 december</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Ruiltocht</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Mini-quiz</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
+            <Row ss:Index="20" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 21 december</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Knutselen </Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 2 februari</Data>
+            <Row ss:Index="21" ss:Height="18">
+                <Cell ss:StyleID="S35"><Data ss:Type="String">Zaterdag 28 december</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Schaatsen</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Kerstfeestje </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 13u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 19u - 21u  </Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Ouders die willen rijden + €6</Data>
-                </Cell>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 9 februari</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Carnaval</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
+            <Row ss:Index="22" ss:Height="17">
+                <Cell ss:StyleID="S36" />
+                <Cell ss:StyleID="S37" />
+                <Cell ss:StyleID="S37" />
+                <Cell ss:StyleID="S37" />
+                <Cell ss:StyleID="S37" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s42">
-                    <Data ss:Type="String">Zaterdag 16 februari</Data>
+            <Row ss:Index="23" ss:Height="19">
+                <Cell ss:StyleID="S23"><Data ss:Type="String">Zaterdag 4 januari</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Olymische Spelen</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Driekoningen</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 23 februari</Data>
+            <Row ss:Index="24" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 11 januari</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Quiz</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Casino </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s43">
-                    <Data ss:Type="String">Iedereen is welkom</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
+            <Row ss:Index="25" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 18 januari</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Knutselen</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u - 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 2 maart</Data>
+            <Row ss:Index="26" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 25 januari</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Ruwe pleinspelen</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Ruiltocht</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s44"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 9 maart</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Dropping</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s36">
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s42">
-                    <Data ss:Type="String">Zaterdag 16 maart</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Zwemmen</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 13u - 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Ouders die willen rijden + €5</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s22">
-                    <Data ss:Type="String">Zaterdag 23 maart</Data>
+            <Row ss:Index="27" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+            </Row>
+            <Row ss:Index="28" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 1 februari</Data>
                 </Cell>
-                <Cell ss:StyleID="s34">
-                    <Data ss:Type="String">KLJ-klassiekers</Data>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Dorpsspel</Data>
                 </Cell>
-                <Cell ss:StyleID="s34">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s36">
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+            </Row>
+            <Row ss:Index="29" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 8 februari</Data>
+                </Cell>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Kooknamiddag</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+            </Row>
+            <Row ss:Index="30" ss:Height="18">
+                <Cell ss:StyleID="S39"><Data ss:Type="String">Zaterdag 15 februari</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Olymische Spelen </Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+            </Row>
+            <Row ss:Index="31" ss:Height="18">
+                <Cell ss:StyleID="S27"><Data ss:Type="String">Zaterdag 22 februari</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Carnaval</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+            </Row>
+            <Row ss:Index="32" ss:Height="17">
+                <Cell ss:StyleID="S40"><Data ss:Type="String">Zaterdag 29 februari</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Quiz</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
+                </Cell>
+                <Cell ss:StyleID="S41"><Data ss:Type="String">Iedereen is welkom</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+            </Row>
+            <Row ss:Index="33" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+            </Row>
+            <Row ss:Index="34" ss:Height="35">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">Zaterdag 7 maart - zondag 8 maart</Data>
+                </Cell>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Slaapfeestje</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
+                </Cell>
+                <Cell ss:StyleID="S34"><Data ss:Type="String">-12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+            </Row>
+            <Row ss:Index="35" ss:Height="18">
+                <Cell ss:StyleID="S43"><Data ss:Type="String">Zaterdag 14 maart</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Zwemmen </Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 13u - 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Ouders die willen rijden + €5</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 30 maart</Data>
+            <Row ss:Index="36" ss:Height="18">
+                <Cell ss:StyleID="S44"><Data ss:Type="String">Zaterdag 21 maart </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Stadsspel</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">KLJ-klassiekers</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Grote markt, Tienen: 14u - 17u</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s45">
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-            </Row>
-            <Row ss:Height="33">
-                <Cell ss:StyleID="s42">
-                    <Data ss:Type="String">Vrijdag 5 april t.e.m. zondag 7 april</Data>
-                </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Weekend</Data>
-                </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
-                </Cell>
-                <Cell ss:StyleID="s45">
-                    <Data ss:Type="String" x:Ticked="1">+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S34"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s42">
-                    <Data ss:Type="String">Zaterdag 13 april</Data>
+            <Row ss:Index="37" ss:Height="18">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">Zaterdag 28 maart</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Paaseierenzoektocht</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Stadsspel</Data>
                 </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Grote Markt, Tienen: 14u - 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s45">
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 20 april</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">GEEN ACTIVITEIT</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
-                <Cell ss:StyleID="s45"/>
-                <Cell ss:StyleID="s30"/>
+            <Row ss:Index="38" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 27 april</Data>
+            <Row ss:Index="39" ss:Height="18">
+                <Cell ss:StyleID="S43"><Data ss:Type="String">Zaterdag 4 april</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Vettige spelen</Data>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Paaseierenzoektocht</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S32"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Kleren die (heel) vuil mogen worden</Data>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Zakje</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
+            <Row ss:Index="40" ss:Height="18">
+                <Cell ss:StyleID="S43"><Data ss:Type="String">Zaterdag 10 april</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">GEEN ACTIVITEIT</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+                <Cell ss:StyleID="S26" />
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 4 mei</Data>
+            <Row ss:Index="41" ss:Height="35">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">Vrijdag 17 april - zondag 19 april </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Pleinspelen</Data>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Opkikker</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">+16/leiding</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="33">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 11 mei t.e.m. zondag 12 mei</Data>
+            <Row ss:Index="42" ss:Height="18">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">Zaterdag 25 april </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Weekend</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Vettige spelen</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String" x:Ticked="1">-12</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Kleren die (heel) vuil mogen worden </Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s42">
-                    <Data ss:Type="String">Zaterdag 18 mei</Data>
-                </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Waterspelletjes</Data>
-                </Cell>
-                <Cell ss:StyleID="s23">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
+            <Row ss:Index="43" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 25 mei</Data>
+            <Row ss:Index="44" ss:Height="35">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">Zaterdag 1 mei - zaterdag 3 mei</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Dorpsspel</Data>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Weekend</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 1 juni</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Kajakken</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String" x:Ticked="1">+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
                 </Cell>
             </Row>
-            <Row ss:Height="31">
-                <Cell ss:StyleID="s29">
-                    <Data ss:Type="String">Zaterdag 8 juni</Data>
+            <Row ss:Index="45" ss:Height="18">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">Zaterdag 9 mei</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">GEEN ACTIVITEIT wegens examens leiding</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Ruwe pleinspelen</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
-                <Cell ss:StyleID="s30"/>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="31">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 15 juni</Data>
+            <Row ss:Index="46" ss:Height="18">
+                <Cell ss:StyleID="S43"><Data ss:Type="String">Zaterdag 16 mei</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">GEEN ACTIVITEIT wegens examens leiding</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Waterspelletjes</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
-                <Cell ss:StyleID="s30"/>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="31">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zaterdag 22 juni</Data>
+            <Row ss:Index="47" ss:Height="18">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">Zaterdag 23 mei </Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">GEEN ACTIVITEIT wegens examens leiding</Data>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Kajakken</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
-                <Cell ss:StyleID="s26"/>
-                <Cell ss:StyleID="s30"/>
-            </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s22">
-                    <Data ss:Type="String">Zaterdag 29 juni</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
                 </Cell>
-                <Cell ss:StyleID="s34">
-                    <Data ss:Type="String">Bobbejaanland</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">+12</Data>
                 </Cell>
-                <Cell>
-                    <Data ss:Type="String">Achterkant station Tienen: 07u45 - 18u00</Data>
-                </Cell>
-                <Cell>
-                    <Data ss:Type="String" x:Ticked="1">-12/+12</Data>
-                </Cell>
-                <Cell>
-                    <Data ss:Type="String">lunchpakket + €30</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld </Data>
                 </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
+            <Row ss:Index="48" ss:Height="18">
+                <Cell ss:StyleID="S44"><Data ss:Type="String">Zaterdag 30 mei</Data>
+                </Cell>
+                <Cell ss:StyleID="S38"><Data ss:Type="String">Dorpsspel </Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Lokaal: 14u – 17u</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s29">
-                    <Data ss:Type="String">Zaterdag 13 juli</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wafelbak</Data>
-                </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Lokaal: 14u - 17u</Data>
-                </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
-                </Cell>
-                <Cell ss:StyleID="s30"/>
+            <Row ss:Index="49" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
             </Row>
-            <Row ss:Height="33">
-                <Cell ss:StyleID="s25">
-                    <Data ss:Type="String">Zondag 22 juli t.e.m. zondag 29 juli</Data>
+            <Row ss:Index="50" ss:Height="18">
+                <Cell ss:StyleID="S44"><Data ss:Type="String">Zaterdag 27 juni</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">KAMP</Data>
+                <Cell ss:StyleID="S45"><Data ss:Type="String">Walibi</Data>
                 </Cell>
-                <Cell ss:StyleID="s30">
-                    <Data ss:Type="String">Wordt later meegedeeld</Data>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
                 </Cell>
-                <Cell ss:StyleID="s26">
-                    <Data ss:Type="String">-12/+12</Data>
+                <Cell ss:StyleID="S33"><Data ss:Type="String">-12/+12</Data>
                 </Cell>
-                <Cell ss:StyleID="s30"/>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld </Data>
+                </Cell>
             </Row>
-            <Row ss:Height="17">
-                <Cell ss:StyleID="s32"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
-                <Cell ss:StyleID="s33"/>
+            <Row ss:Index="51" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+            </Row>
+            <Row ss:Index="52" ss:Height="18">
+                <Cell ss:StyleID="S42"><Data ss:Type="String">21 juli t.e.m. 28 juli </Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">KAMP</Data>
+                </Cell>
+                <Cell ss:StyleID="S24"><Data ss:Type="String">Wordt later meegedeeld</Data>
+                </Cell>
+                <Cell ss:StyleID="S26"><Data ss:Type="String">-12/+12</Data>
+                </Cell>
+                <Cell ss:StyleID="S24" />
+            </Row>
+            <Row ss:Index="53" ss:Height="17">
+                <Cell ss:StyleID="S31" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
+                <Cell ss:StyleID="S29" />
             </Row>
         </Table>
         <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

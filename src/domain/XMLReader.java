@@ -17,6 +17,7 @@ public class XMLReader {
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document = documentBuilder.parse(file);
             int i = 1;
+
             while (document.getElementsByTagName("Row").item(i).getTextContent() != null) {
                 String data = document.getElementsByTagName("Row").item(i).getTextContent();
                 data = data.replaceAll("\n", "").trim().replaceAll("\\s{2,}", "TAB").trim();
@@ -27,7 +28,7 @@ public class XMLReader {
             }
 
         } catch (Exception e) {
-            System.out.println("90");
+            //DO NOTHING
         }
     }
 
