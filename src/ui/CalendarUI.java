@@ -43,7 +43,7 @@ public class CalendarUI {
             String DTEND = "";
 
 
-            String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2019" : "2020";
+            String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2020" : "2021";
             if (!Arrays.asList(namen).contains(naam.toUpperCase())) {
                 System.out.println(naam);
                 locatie = activiteitArray[2];
