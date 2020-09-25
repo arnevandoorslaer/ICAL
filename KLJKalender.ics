@@ -294,9 +294,9 @@ LOCATION:Waar: Lokaal
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210430
-UID:531785357@Weekend
+UID:560414508@Weekend
 DTSTART;TZID="Europe/Berlin":20210430
-DTEND;TZID="Europe/Berlin":20210403
+DTEND;TZID="Europe/Berlin":20210503
 SUMMARY:Weekend
 DESCRIPTION:Extra:\nWordt later meegedeeld\nWie: +12
 LOCATION:Waar: Wordt later meegedeeld (corona)

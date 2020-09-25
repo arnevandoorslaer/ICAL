@@ -27,12 +27,12 @@ public class CalendarUI {
                 temp = "random " + temp;
             }
             String[] activiteitArray = temp.split("TAB");
-            System.out.println(temp);
             String datum = activiteitArray[0].split(" ")[1];
             if (Integer.parseInt(datum) < 10) {
                 datum = "0" + datum;
             }
             String maand = activiteitArray[0].split(" ")[2];
+
             maand = mc.convert(maand);
             String naam = activiteitArray[1];
             String locatie = "";
@@ -42,10 +42,8 @@ public class CalendarUI {
             String DTSTART = "";
             String DTEND = "";
 
-
             String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2020" : "2021";
             if (!Arrays.asList(geenActiviteit).contains(naam.toUpperCase())) {
-                System.out.println(naam);
                 locatie = activiteitArray[2];
                 locatie = locatie.replace('–', '-');
                 try {
@@ -90,6 +88,15 @@ public class CalendarUI {
             }
 
             if (Arrays.asList(meerdaagse).contains(naam.toUpperCase())) {
+                String smaand = maand;
+                String emaand = "";
+
+                try{
+                    emaand = mc.convert(activiteitArray[0].split(" ")[6]);
+                }catch(ArrayIndexOutOfBoundsException e){
+                    emaand = mc.convert(activiteitArray[0].split(" ")[5]);
+                }
+
                 String sdatum = activiteitArray[0].split(" ")[1];
                 String edatum;
                 try {
@@ -106,13 +113,12 @@ public class CalendarUI {
                 if (Integer.parseInt(sdatum) < 10) {
                     sdatum = "0" + sdatum;
                 }
-                DTSTART = jaar + maand + sdatum;// + "T" + "000000";
-                DTEND = jaar + maand + edatum;// + "T" + "235959";
-                System.out.println(DTSTART);
-                System.out.println(DTEND);
+                DTSTART = jaar + smaand + sdatum;// + "T" + "000000";
+                DTEND = jaar + emaand + edatum;// + "T" + "235959";
             }
 
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie);
+            System.out.println(tempEvent);
             calendar.addEvent(tempEvent);
 
         }
