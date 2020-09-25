@@ -21,7 +21,7 @@ public class XMLReader {
             while (document.getElementsByTagName("Row").item(i).getTextContent() != null) {
                 String data = document.getElementsByTagName("Row").item(i).getTextContent();
                 data = data.replaceAll("\n", "").trim().replaceAll("\\s{2,}", "TAB").trim();
-                if (!(data == null || data.isEmpty())) {
+                if (!data.isEmpty()) {
                     xmlArray.add(data);
                 }
                 i++;

@@ -9,7 +9,7 @@
         <Author>Microsoft Office User</Author>
         <LastAuthor>Arne Vandoorslaer</LastAuthor>
         <Created>2018-09-09T18:54:44Z</Created>
-        <LastSaved>2020-09-25T16:06:53Z</LastSaved>
+        <LastSaved>2020-09-25T16:42:06Z</LastSaved>
         <Version>16.00</Version>
     </DocumentProperties>
     <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -516,7 +516,7 @@
                 <Cell ss:StyleID="s32"/>
             </Row>
             <Row ss:Height="32.25">
-                <Cell ss:StyleID="s42"><Data ss:Type="String">Zaterdag 6 maart - zondag 7 maart</Data></Cell>
+                <Cell ss:StyleID="s42"><Data ss:Type="String">Zaterdag 6 maart - Zondag 7 maart</Data></Cell>
                 <Cell ss:StyleID="s41"><Data ss:Type="String">Slaapfeestje</Data></Cell>
                 <Cell ss:StyleID="s30"><Data ss:Type="String">Wordt later meegedeeld (corona)</Data></Cell>
                 <Cell ss:StyleID="s35"><Data ss:Type="String" x:Ticked="1">-12</Data></Cell>
@@ -578,7 +578,7 @@
                 <Cell ss:StyleID="s32"/>
             </Row>
             <Row ss:Height="32.25">
-                <Cell ss:StyleID="s42"><Data ss:Type="String">Zaterdag 30 april - zaterdag 2 mei</Data></Cell>
+                <Cell ss:StyleID="s42"><Data ss:Type="String">Vrijdag 30 april - Zondag 2 mei</Data></Cell>
                 <Cell ss:StyleID="s41"><Data ss:Type="String">Weekend</Data></Cell>
                 <Cell ss:StyleID="s30"><Data ss:Type="String">Wordt later meegedeeld (corona)</Data></Cell>
                 <Cell ss:StyleID="s26"><Data ss:Type="String" x:Ticked="1">+12</Data></Cell>
@@ -634,7 +634,7 @@
                 <Cell ss:StyleID="s32"/>
             </Row>
             <Row ss:Height="16.5">
-                <Cell ss:StyleID="s42"><Data ss:Type="String">21 juli t.e.m.  28 juli </Data></Cell>
+                <Cell ss:StyleID="s42"><Data ss:Type="String">21 juli t.e.m. 28 juli </Data></Cell>
                 <Cell ss:StyleID="s30"><Data ss:Type="String">KAMP</Data></Cell>
                 <Cell ss:StyleID="s30"><Data ss:Type="String">Wordt later meegedeeld</Data></Cell>
                 <Cell ss:StyleID="s26"><Data ss:Type="String">-12/+12</Data></Cell>
@@ -654,13 +654,17 @@
                 <Footer x:Margin="0.3"/>
                 <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
             </PageSetup>
+            <Print>
+                <ValidPrinterInfo/>
+                <HorizontalResolution>600</HorizontalResolution>
+                <VerticalResolution>600</VerticalResolution>
+            </Print>
             <Selected/>
-            <TopRowVisible>12</TopRowVisible>
+            <TopRowVisible>21</TopRowVisible>
             <Panes>
                 <Pane>
                     <Number>3</Number>
-                    <ActiveRow>21</ActiveRow>
-                    <ActiveCol>3</ActiveCol>
+                    <ActiveRow>30</ActiveRow>
                 </Pane>
             </Panes>
             <ProtectObjects>False</ProtectObjects>

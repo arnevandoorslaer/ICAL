@@ -11,7 +11,8 @@ public class CalendarUI {
     private Calendar calendar;
     private XMLReader xmlReader = new XMLReader("D:\\Users\\vando\\Documents\\Programming\\PersonalProjects\\ICAL\\src\\kalender.xml");
     private ArrayList<String> activiteitenArray = xmlReader.getXmlArray();
-    private String[] namen = {"GEEN ACTIVITEIT","EXAMENS LEIDING"};
+    private String[] geenActiviteit = {"GEEN ACTIVITEIT","EXAMENS LEIDING"};
+    private String[] meerdaagse = {"WEEKEND","KAMP","OPKIKKER","SLAAPFEESTJE"};
 
     public CalendarUI(String name) {
         calendar = new Calendar(name);
@@ -21,9 +22,8 @@ public class CalendarUI {
     }
 
     private void fill() {
-        for (int i = 0; i < activiteitenArray.size(); i++) {
-            String temp = activiteitenArray.get(i);
-            if(Character.isDigit(temp.charAt(0))){
+        for (String temp : activiteitenArray) {
+            if (Character.isDigit(temp.charAt(0))) {
                 temp = "random " + temp;
             }
             String[] activiteitArray = temp.split("TAB");
@@ -44,7 +44,7 @@ public class CalendarUI {
 
 
             String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2020" : "2021";
-            if (!Arrays.asList(namen).contains(naam.toUpperCase())) {
+            if (!Arrays.asList(geenActiviteit).contains(naam.toUpperCase())) {
                 System.out.println(naam);
                 locatie = activiteitArray[2];
                 locatie = locatie.replace('–', '-');
@@ -71,14 +71,14 @@ public class CalendarUI {
                     DTEND = jaar + maand + datum + "T" + "235959";
                 }
 
-                locatie = "Waar: " +locatie.split(":")[0];
+                locatie = "Waar: " + locatie.split(":")[0];
                 wie = activiteitArray[3];
                 try {
                     extra = "Extra:\\n" + activiteitArray[4] + "\\nWie: " + wie;
                 } catch (ArrayIndexOutOfBoundsException e) {
-                    if(wie.charAt(0)=='v'){
+                    if (wie.charAt(0) == 'v') {
                         extra = "Extra: " + wie;
-                    }else{
+                    } else {
                         extra = "Wie: " + wie;
                     }
 
@@ -89,18 +89,17 @@ public class CalendarUI {
                 DTEND = jaar + maand + datum + "T" + "235959";
             }
 
-            ArrayList<String> weekends = new ArrayList<>(Arrays.asList(new String[]{"WEEKEND","KAMP","OPKIKKER","SLAAPFEESTJE"}));
-            if (weekends.contains(naam.toUpperCase())) {
+            if (Arrays.asList(meerdaagse).contains(naam.toUpperCase())) {
                 String sdatum = activiteitArray[0].split(" ")[1];
                 String edatum;
-                try{
+                try {
                     edatum = activiteitArray[0].split("-")[1];
-                }catch(ArrayIndexOutOfBoundsException e){
+                } catch (ArrayIndexOutOfBoundsException e) {
                     edatum = activiteitArray[0].split("t.e.m.")[1];
                 }
                 edatum = edatum.substring(edatum.indexOf('g') + 2);
                 edatum = edatum.split(" ")[0];
-                edatum = String.valueOf(Integer.parseInt(edatum)+1);
+                edatum = String.valueOf(Integer.parseInt(edatum) + 1);
                 if (Integer.parseInt(edatum) < 10) {
                     edatum = "0" + edatum;
                 }
