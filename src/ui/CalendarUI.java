@@ -9,8 +9,9 @@ public class CalendarUI {
     static final String NL = "\r\n";
     private static MonthConverter mc = new MonthConverter();
     private Calendar calendar;
-    private XMLReader xmlReader = new XMLReader("C:\\Users\\XPS15\\Documents\\Programming\\PersonalProjects\\ICAL\\src\\kalender.xml");
+    private XMLReader xmlReader = new XMLReader("D:\\Users\\vando\\Documents\\Programming\\PersonalProjects\\ICAL\\src\\kalender.xml");
     private ArrayList<String> activiteitenArray = xmlReader.getXmlArray();
+    private String[] namen = {"GEEN ACTIVITEIT","EXAMENS LEIDING"};
 
     public CalendarUI(String name) {
         calendar = new Calendar(name);
@@ -43,7 +44,8 @@ public class CalendarUI {
 
 
             String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2019" : "2020";
-            if (!(naam.contains("GEEN ACTIVITEIT"))) {
+            if (!Arrays.asList(namen).contains(naam.toUpperCase())) {
+                System.out.println(naam);
                 locatie = activiteitArray[2];
                 locatie = locatie.replace('–', '-');
                 try {
