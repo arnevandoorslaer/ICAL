@@ -10,6 +10,7 @@ public class Event {
     private String DESCRIPTION;
     private String LOCATION;
     private String[] activiteit;
+    private String maand;
 
     public Event(String DTSTART, String DTEND, String SUMMARY, String DESCRIPTION, String LOCATION, String[] activiteit) {
         setDTSTART(DTSTART);
@@ -19,6 +20,7 @@ public class Event {
         setLOCATION(LOCATION);
         setUID(hashCode() + "@" + SUMMARY);
         setActiviteit(activiteit);
+        setMaand(activiteit[0].split(" ")[2]);
     }
 
     private void setDTSTART(String DTSTART) {
@@ -80,13 +82,21 @@ public class Event {
     }
 
     public String printHTML() {
-        System.out.println(DTSTART.substring(4,6));
-        String result = "";
+        String result = "<div>";
         result += "<p>" + activiteit[0] + "</p>";
         result += "<p>" + activiteit[1] + "</p>";
-        result += activiteit.length == 3 ? "<p>" + activiteit[2] + "</p>" : "<p></p>";
-        result += activiteit.length == 4 ? "<p>" + activiteit[3] + "</p>" : "<p></p>";
-        result += activiteit.length == 5 ? "<p>" + activiteit[4] + "</p>" : "<p></p>";
+        result += activiteit.length >= 3 ? "<p>" + activiteit[2] + "</p>" : "<p></p>";
+        result += activiteit.length >= 4 ? "<p>" + activiteit[3] + "</p>" : "<p></p>";
+        result += activiteit.length >= 5 ? "<p>" + activiteit[4] + "</p>" : "<p></p>";
+        result += "</div>";
         return result;
+    }
+
+    public void setMaand(String maand) {
+        this.maand = maand;
+    }
+
+    public String getMaand() {
+        return maand;
     }
 }

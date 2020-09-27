@@ -48,4 +48,27 @@ public class Calendar {
         cal.append("END:VCALENDAR");
         return cal.toString();
     }
+
+    public String printHTML() {
+        StringBuilder cal = new StringBuilder();
+        String currentM = "september";
+        cal.append("<div class=\"maand\">");
+        cal.append("\n");
+        cal.append("<h2>").append(currentM).append("</h2>");
+        cal.append("\n");
+        for (Event event : events) {
+            if (!currentM.equals(event.getMaand())) {
+                currentM = event.getMaand();
+                cal.append("</div>");
+                cal.append("\n");
+                cal.append("<div class=\"maand\">");
+                cal.append("\n");
+                cal.append("<h2>").append(currentM).append("</h2>");
+                cal.append("\n");
+            }
+            cal.append(event.printHTML());
+            cal.append("\n");
+        }
+        return cal.toString();
+    }
 }

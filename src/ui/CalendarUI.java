@@ -81,7 +81,7 @@ public class CalendarUI {
                 DTEND = jaar + emaand + edatum;// + "T" + "235959";
             }
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie, activiteit);
-            System.out.println(tempEvent.printHTML());
+            //System.out.println(tempEvent);
             calendar.addEvent(tempEvent);
         }
     }
@@ -98,5 +98,9 @@ public class CalendarUI {
     private String getNextDate(String year, String month, String day) {
         LocalDate date = LocalDate.of(Integer.parseInt(year), Integer.parseInt(month), Integer.parseInt(day));
         return date.plusDays(1).toString();
+    }
+
+    public String printHTML(){
+        return calendar.printHTML();
     }
 }

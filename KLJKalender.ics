@@ -230,10 +230,10 @@ DESCRIPTION:Wie: -12/+12
 LOCATION:Waar: Lokaal
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210306
-UID:-1404481923@Slaapfeestje
-DTSTART;TZID="Europe/Berlin":20210306
-DTEND;TZID="Europe/Berlin":20210307
+DTSTAMP:202103006
+UID:1823086476@Slaapfeestje
+DTSTART;TZID="Europe/Berlin":202103006
+DTEND;TZID="Europe/Berlin":20210308
 SUMMARY:Slaapfeestje
 DESCRIPTION:Wie: -12
 LOCATION:Waar: Wordt later meegedeeld (corona)
@@ -294,9 +294,9 @@ LOCATION:Waar: Lokaal
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210430
-UID:560354926@Weekend
+UID:560414508@Weekend
 DTSTART;TZID="Europe/Berlin":20210430
-DTEND;TZID="Europe/Berlin":20210501
+DTEND;TZID="Europe/Berlin":20210503
 SUMMARY:Weekend
 DESCRIPTION:Extra:\nWordt later meegedeeld\nWie: +12
 LOCATION:Waar: Wordt later meegedeeld (corona)
@@ -329,10 +329,10 @@ DESCRIPTION:Extra:\nOuders die willen rijden (prijs wordt later meegedeeld)\nWie
 LOCATION:Waar: Wordt later meegedeeld
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210529
-UID:-1091980894@Examens leiding
+DTSTAMP:20210529T000000
+UID:-820609905@Examens leiding
 DTSTART;TZID="Europe/Berlin":20210529
-DTEND;TZID="Europe/Berlin":20210530
+DTEND;TZID="Europe/Berlin":20210529
 SUMMARY:Examens leiding
 DESCRIPTION:
 LOCATION:
@@ -348,9 +348,9 @@ LOCATION:Waar: Wordt later meegedeeld (corona)
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210721
-UID:1217684577@KAMP
+UID:1217893114@KAMP
 DTSTART;TZID="Europe/Berlin":20210721
-DTEND;TZID="Europe/Berlin":20210722
+DTEND;TZID="Europe/Berlin":20210729
 SUMMARY:KAMP
 DESCRIPTION:Wie: -12/+12
 LOCATION:Waar: Wordt later meegedeeld
