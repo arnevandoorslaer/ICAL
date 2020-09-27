@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Calendar {
     ArrayList<Event> events;
 
-    private String first;
+    private final String first;
 
     public Calendar(String name) {
         events = new ArrayList<>();
@@ -41,11 +41,11 @@ public class Calendar {
 
     @Override
     public String toString() {
-        String cal = first;
+        StringBuilder cal = new StringBuilder(first);
         for (Event event : events) {
-            cal += event.toString();
+            cal.append(event.toString());
         }
-        cal += "END:VCALENDAR";
-        return cal;
+        cal.append("END:VCALENDAR");
+        return cal.toString();
     }
 }

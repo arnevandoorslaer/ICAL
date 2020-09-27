@@ -50,12 +50,12 @@ public class Event {
 
     @Override
     public String toString() {
-        if (DTEND.substring(DTEND.length() - 6).equals("235959")) {
+        if (DTEND.endsWith("235959")) {
             return "BEGIN:VEVENT" + '\n' +
                     "DTSTAMP:" + DTSTART + '\n' +
                     "UID:" + UID + '\n' +
-                    "DTSTART;TZID=\"Europe/Berlin\":" + DTSTART.substring(0,DTSTART.length()-7) + '\n' +
-                    "DTEND;TZID=\"Europe/Berlin\":" + DTEND.substring(0,DTSTART.length()-7) + '\n' +
+                    "DTSTART;TZID=\"Europe/Berlin\":" + DTSTART.substring(0, DTSTART.length() - 7) + '\n' +
+                    "DTEND;TZID=\"Europe/Berlin\":" + DTEND.substring(0, DTSTART.length() - 7) + '\n' +
                     "SUMMARY:" + SUMMARY + '\n' +
                     "DESCRIPTION:" + DESCRIPTION + '\n' +
                     "LOCATION:" + LOCATION + '\n' +

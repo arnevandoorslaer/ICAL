@@ -7,112 +7,79 @@ import java.util.Arrays;
 
 public class CalendarUI {
     static final String NL = "\r\n";
-    private static MonthConverter mc = new MonthConverter();
-    private Calendar calendar;
-    private XMLReader xmlReader = new XMLReader("D:\\Users\\vando\\Documents\\Programming\\PersonalProjects\\ICAL\\src\\kalender.xml");
-    private ArrayList<String> activiteitenArray = xmlReader.getXmlArray();
-    private String[] geenActiviteit = {"GEEN ACTIVITEIT","EXAMENS LEIDING"};
-    private String[] meerdaagse = {"WEEKEND","KAMP","OPKIKKER","SLAAPFEESTJE"};
+    private static final MonthConverter mc = new MonthConverter();
+    private final Calendar calendar;
+    private final XMLReader xmlReader = new XMLReader("D:\\Users\\vando\\Documents\\Programming\\PersonalProjects\\ICAL\\src\\kalender.xml");
+    private final ArrayList<String> activiteiten = xmlReader.getXmlArray();
+
+    private final String[] geenActiviteit = {"GEEN ACTIVITEIT", "EXAMENS LEIDING"};
+    private final String[] meerdaagse = {"WEEKEND", "KAMP", "OPKIKKER", "SLAAPFEESTJE"};
+
+    private final String name;
 
     public CalendarUI(String name) {
+        this.name = name;
         calendar = new Calendar(name);
-        fill();
-        Writer writer = new Writer();
-        writer.write(name, calendar);
     }
 
-    private void fill() {
-        for (String temp : activiteitenArray) {
-            if (Character.isDigit(temp.charAt(0))) {
-                temp = "random " + temp;
+    public void fill(String begin, String end) {
+        for (String item : activiteiten) {
+            if (Character.isDigit(item.charAt(0))) {
+                item = "Zaterdag " + item;
             }
-            String[] activiteitArray = temp.split("TAB");
-            String datum = activiteitArray[0].split(" ")[1];
-            if (Integer.parseInt(datum) < 10) {
-                datum = "0" + datum;
-            }
-            String maand = activiteitArray[0].split(" ")[2];
+            String[] activiteit = item.split("TAB");
 
-            maand = mc.convert(maand);
-            String naam = activiteitArray[1];
+            String dag = mc.fixDate(activiteit[0].split(" ")[1]);
+            String maand = mc.convert(activiteit[0].split(" ")[2]);
+            String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? begin : end;
+
+            String naam = activiteit[1];
             String locatie = "";
-            String wie = "";
+            String wie;
             String extra = "";
 
-            String DTSTART = "";
-            String DTEND = "";
+            String DTSTART;
+            String DTEND;
 
-            String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? "2020" : "2021";
             if (!Arrays.asList(geenActiviteit).contains(naam.toUpperCase())) {
-                locatie = activiteitArray[2];
-                locatie = locatie.replace('–', '-');
+                locatie = activiteit[2].replace('–', '-');
+                wie = activiteit[3];
+
                 try {
-                    String H = locatie.split(": ")[1].substring(0, 2);
-                    try {
-                        Integer.parseInt(H);
-                    } catch (NumberFormatException e) {
-                        H = 0 + H.substring(0, 1);
-                    }
-                    DTSTART = jaar + maand + datum + "T" + H + "0000";
+                    String H = locatie.split("- ")[0].replaceAll("\\D+", "");
+                    DTSTART = jaar + maand + dag + "T" + H + "0000";
                 } catch (ArrayIndexOutOfBoundsException e) {
-                    DTSTART = jaar + maand + datum + "T" + "000000";
+                    DTSTART = jaar + maand + dag + "T" + "000000";
                 }
                 try {
-                    String H = locatie.split("- ")[1].substring(0, 2);
-                    try {
-                        Integer.parseInt(H);
-                    } catch (NumberFormatException e) {
-                        H = 0 + H.substring(0, 1);
-                    }
-                    DTEND = jaar + maand + datum + "T" + H + "0000";
+                    String H = locatie.split("- ")[1].replaceAll("\\D+", "");
+                    DTEND = jaar + maand + dag + "T" + H + "0000";
                 } catch (ArrayIndexOutOfBoundsException e) {
-                    DTEND = jaar + maand + datum + "T" + "235959";
+                    DTEND = jaar + maand + dag + "T" + "235959";
                 }
 
                 locatie = "Waar: " + locatie.split(":")[0];
-                wie = activiteitArray[3];
                 try {
-                    extra = "Extra:\\n" + activiteitArray[4] + "\\nWie: " + wie;
+                    extra = "Extra:\\n" + activiteit[4] + "\\nWie: " + wie;
                 } catch (ArrayIndexOutOfBoundsException e) {
                     if (wie.charAt(0) == 'v') {
                         extra = "Extra: " + wie;
                     } else {
                         extra = "Wie: " + wie;
                     }
-
                 }
 
             } else {
-                DTSTART = jaar + maand + datum + "T" + "000000";
-                DTEND = jaar + maand + datum + "T" + "235959";
+                DTSTART = jaar + maand + dag + "T" + "000000";
+                DTEND = jaar + maand + dag + "T" + "235959";
             }
 
             if (Arrays.asList(meerdaagse).contains(naam.toUpperCase())) {
                 String smaand = maand;
-                String emaand = "";
+                String emaand = mc.convert(activiteit[0].split(" ")[activiteit[0].split(" ").length - 1]);
+                String sdatum = mc.fixDate(dag);
+                String edatum = mc.fixDate(incrementString(activiteit[0].split(activiteit[0].contains("-") ? "-" : "t.e.m.")[1].replaceAll("\\D+", "")));
 
-                try{
-                    emaand = mc.convert(activiteitArray[0].split(" ")[6]);
-                }catch(ArrayIndexOutOfBoundsException e){
-                    emaand = mc.convert(activiteitArray[0].split(" ")[5]);
-                }
-
-                String sdatum = activiteitArray[0].split(" ")[1];
-                String edatum;
-                try {
-                    edatum = activiteitArray[0].split("-")[1];
-                } catch (ArrayIndexOutOfBoundsException e) {
-                    edatum = activiteitArray[0].split("t.e.m.")[1];
-                }
-                edatum = edatum.substring(edatum.indexOf('g') + 2);
-                edatum = edatum.split(" ")[0];
-                edatum = String.valueOf(Integer.parseInt(edatum) + 1);
-                if (Integer.parseInt(edatum) < 10) {
-                    edatum = "0" + edatum;
-                }
-                if (Integer.parseInt(sdatum) < 10) {
-                    sdatum = "0" + sdatum;
-                }
                 DTSTART = jaar + smaand + sdatum;// + "T" + "000000";
                 DTEND = jaar + emaand + edatum;// + "T" + "235959";
             }
@@ -120,7 +87,15 @@ public class CalendarUI {
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie);
             System.out.println(tempEvent);
             calendar.addEvent(tempEvent);
-
         }
+    }
+
+    public void write() {
+        Writer writer = new Writer();
+        writer.write(name, calendar);
+    }
+
+    private String incrementString(String text) {
+        return String.valueOf(Integer.parseInt(text) + 1);
     }
 }
