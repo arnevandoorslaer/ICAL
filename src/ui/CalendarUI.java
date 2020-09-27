@@ -67,12 +67,8 @@ public class CalendarUI {
                     }
                 }
 
-            } else {
-                DTSTART = jaar + maand + dag;
-                DTEND = getNextDate(jaar, maand, dag).replaceAll("-", "");
             }
-
-            if (Arrays.asList(meerdaagse).contains(naam.toUpperCase())) {
+            else if (Arrays.asList(meerdaagse).contains(naam.toUpperCase())) {
                 String smaand = maand;
                 String emaand = mc.convert(activiteit[0].split(" ")[activiteit[0].split(" ").length - 1]);
                 String sdatum = mc.fixDate(dag);
@@ -81,7 +77,13 @@ public class CalendarUI {
                 DTSTART = jaar + smaand + sdatum;// + "T" + "000000";
                 DTEND = jaar + emaand + edatum;// + "T" + "235959";
             }
+            else {
+                DTSTART = jaar + maand + dag;
+                DTEND = getNextDate(jaar, maand, dag).replaceAll("-", "");
+            }
+
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie);
+
             System.out.println(tempEvent);
             calendar.addEvent(tempEvent);
         }
