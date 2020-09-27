@@ -329,10 +329,10 @@ DESCRIPTION:Extra:\nOuders die willen rijden (prijs wordt later meegedeeld)\nWie
 LOCATION:Waar: Wordt later meegedeeld
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210529T000000
-UID:-820609905@Examens leiding
+DTSTAMP:20210529
+UID:-1091980894@Examens leiding
 DTSTART;TZID="Europe/Berlin":20210529
-DTEND;TZID="Europe/Berlin":20210529
+DTEND;TZID="Europe/Berlin":20210530
 SUMMARY:Examens leiding
 DESCRIPTION:
 LOCATION:

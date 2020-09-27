@@ -53,12 +53,13 @@ public class CalendarUI {
                     DTEND = jaar + maand + dag + "T" + E + "0000";
                 } else {
                     DTSTART = jaar + maand + dag;
-                    DTEND = getNextDate(jaar,maand,dag).replaceAll("-","") ;
+                    DTEND = getNextDate(jaar, maand, dag).replaceAll("-", "");
                 }
                 locatie = "Waar: " + locatie.split(":")[0];
-                try {
+
+                if (activiteit.length > 4) {
                     extra = "Extra:\\n" + activiteit[4] + "\\nWie: " + wie;
-                } catch (ArrayIndexOutOfBoundsException e) {
+                } else {
                     if (wie.charAt(0) == 'v') {
                         extra = "Extra: " + wie;
                     } else {
@@ -67,8 +68,8 @@ public class CalendarUI {
                 }
 
             } else {
-                DTSTART = jaar + maand + dag + "T" + "000000";
-                DTEND = jaar + maand + dag + "T" + "235959";
+                DTSTART = jaar + maand + dag;
+                DTEND = getNextDate(jaar, maand, dag).replaceAll("-", "");
             }
 
             if (Arrays.asList(meerdaagse).contains(naam.toUpperCase())) {
@@ -81,7 +82,7 @@ public class CalendarUI {
                 DTEND = jaar + emaand + edatum;// + "T" + "235959";
             }
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie);
-            //System.out.println(tempEvent);
+            System.out.println(tempEvent);
             calendar.addEvent(tempEvent);
         }
     }
