@@ -52,8 +52,8 @@ public class CalendarUI {
                     DTSTART = jaar + maand + dag + "T" + S + "0000";
                     DTEND = jaar + maand + dag + "T" + E + "0000";
                 } else {
-                    DTSTART = jaar + maand + dag + "T" + "000000";
-                    DTEND = getNextDate(jaar,maand,dag).replaceAll("-","") + "T" + "000000";
+                    DTSTART = jaar + maand + dag;
+                    DTEND = getNextDate(jaar,maand,dag).replaceAll("-","") ;
                 }
                 locatie = "Waar: " + locatie.split(":")[0];
                 try {

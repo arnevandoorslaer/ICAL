@@ -50,15 +50,26 @@ public class Event {
 
     @Override
     public String toString() {
-        return "BEGIN:VEVENT" + '\n' +
-                "DTSTAMP:" + DTSTART + '\n' +
-                "UID:" + UID + '\n' +
-                "DTSTART;TZID=\"Europe/Berlin\":" + DTSTART + '\n' +
-                "DTEND;TZID=\"Europe/Berlin\":" + DTEND + '\n' +
-                "SUMMARY:" + SUMMARY + '\n' +
-                "DESCRIPTION:" + DESCRIPTION + '\n' +
-                "LOCATION:" + LOCATION + '\n' +
-                "END:VEVENT" + '\n';
+        if (DTEND.endsWith("235959")) {
+            return "BEGIN:VEVENT" + '\n' +
+                    "DTSTAMP:" + DTSTART + '\n' +
+                    "UID:" + UID + '\n' +
+                    "DTSTART;TZID=\"Europe/Berlin\":" + DTSTART.substring(0, DTSTART.length() - 7) + '\n' +
+                    "DTEND;TZID=\"Europe/Berlin\":" + DTEND.substring(0, DTSTART.length() - 7) + '\n' +
+                    "SUMMARY:" + SUMMARY + '\n' +
+                    "DESCRIPTION:" + DESCRIPTION + '\n' +
+                    "LOCATION:" + LOCATION + '\n' +
+                    "END:VEVENT" + '\n';
+        } else {
+            return "BEGIN:VEVENT" + '\n' +
+                    "DTSTAMP:" + DTSTART + '\n' +
+                    "UID:" + UID + '\n' +
+                    "DTSTART;TZID=\"Europe/Berlin\":" + DTSTART + '\n' +
+                    "DTEND;TZID=\"Europe/Berlin\":" + DTEND + '\n' +
+                    "SUMMARY:" + SUMMARY + '\n' +
+                    "DESCRIPTION:" + DESCRIPTION + '\n' +
+                    "LOCATION:" + LOCATION + '\n' +
+                    "END:VEVENT" + '\n';
+        }
     }
 }
-
