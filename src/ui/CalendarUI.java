@@ -32,7 +32,7 @@ public class CalendarUI {
 
             String dag = mc.fixDate(activiteit[0].split(" ")[1]);
             String maand = mc.convert(activiteit[0].split(" ")[2]);
-            String jaar = Integer.parseInt(maand) < 12 && Integer.parseInt(maand) > 8 ? begin : end;
+            String jaar = Integer.parseInt(maand) <= 12 && Integer.parseInt(maand) > 8 ? begin : end;
 
             String naam = activiteit[1];
             String locatie = "";
@@ -81,7 +81,7 @@ public class CalendarUI {
                 DTEND = jaar + emaand + edatum;// + "T" + "235959";
             }
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie);
-            System.out.println(tempEvent);
+            //System.out.println(tempEvent);
             calendar.addEvent(tempEvent);
         }
     }
