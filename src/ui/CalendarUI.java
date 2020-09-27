@@ -2,6 +2,7 @@ package ui;
 
 import domain.*;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -45,19 +46,15 @@ public class CalendarUI {
                 locatie = activiteit[2].replace('–', '-');
                 wie = activiteit[3];
 
-                try {
-                    String H = locatie.split("- ")[0].replaceAll("\\D+", "");
-                    DTSTART = jaar + maand + dag + "T" + H + "0000";
-                } catch (ArrayIndexOutOfBoundsException e) {
+                if (locatie.split("-").length == 2) {
+                    String S = locatie.split("-")[0].replaceAll("\\D+", "");
+                    String E = locatie.split("-")[1].replaceAll("\\D+", "");
+                    DTSTART = jaar + maand + dag + "T" + S + "0000";
+                    DTEND = jaar + maand + dag + "T" + E + "0000";
+                } else {
                     DTSTART = jaar + maand + dag + "T" + "000000";
+                    DTEND = getNextDate(jaar,maand,dag).replaceAll("-","") + "T" + "000000";
                 }
-                try {
-                    String H = locatie.split("- ")[1].replaceAll("\\D+", "");
-                    DTEND = jaar + maand + dag + "T" + H + "0000";
-                } catch (ArrayIndexOutOfBoundsException e) {
-                    DTEND = jaar + maand + dag + "T" + "235959";
-                }
-
                 locatie = "Waar: " + locatie.split(":")[0];
                 try {
                     extra = "Extra:\\n" + activiteit[4] + "\\nWie: " + wie;
@@ -83,7 +80,6 @@ public class CalendarUI {
                 DTSTART = jaar + smaand + sdatum;// + "T" + "000000";
                 DTEND = jaar + emaand + edatum;// + "T" + "235959";
             }
-
             Event tempEvent = new Event(DTSTART, DTEND, naam, extra, locatie);
             System.out.println(tempEvent);
             calendar.addEvent(tempEvent);
@@ -97,5 +93,10 @@ public class CalendarUI {
 
     private String incrementString(String text) {
         return String.valueOf(Integer.parseInt(text) + 1);
+    }
+
+    private String getNextDate(String year, String month, String day) {
+        LocalDate date = LocalDate.of(Integer.parseInt(year), Integer.parseInt(month), Integer.parseInt(day));
+        return date.plusDays(1).toString();
     }
 }
