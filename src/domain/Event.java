@@ -9,14 +9,16 @@ public class Event {
     private String SUMMARY;
     private String DESCRIPTION;
     private String LOCATION;
+    private String[] activiteit;
 
-    public Event(String DTSTART, String DTEND, String SUMMARY, String DESCRIPTION, String LOCATION) {
+    public Event(String DTSTART, String DTEND, String SUMMARY, String DESCRIPTION, String LOCATION, String[] activiteit) {
         setDTSTART(DTSTART);
         setDTEND(DTEND);
         setSUMMARY(SUMMARY);
         setDESCRIPTION(DESCRIPTION);
         setLOCATION(LOCATION);
         setUID(hashCode() + "@" + SUMMARY);
+        setActiviteit(activiteit);
     }
 
     private void setDTSTART(String DTSTART) {
@@ -41,6 +43,10 @@ public class Event {
 
     private void setLOCATION(String LOCATION) {
         this.LOCATION = LOCATION;
+    }
+
+    public void setActiviteit(String[] activiteit) {
+        this.activiteit = activiteit;
     }
 
     @Override
@@ -71,5 +77,16 @@ public class Event {
                     "LOCATION:" + LOCATION + '\n' +
                     "END:VEVENT" + '\n';
         }
+    }
+
+    public String printHTML() {
+        System.out.println(DTSTART.substring(4,6));
+        String result = "";
+        result += "<p>" + activiteit[0] + "</p>";
+        result += "<p>" + activiteit[1] + "</p>";
+        result += activiteit.length == 3 ? "<p>" + activiteit[2] + "</p>" : "<p></p>";
+        result += activiteit.length == 4 ? "<p>" + activiteit[3] + "</p>" : "<p></p>";
+        result += activiteit.length == 5 ? "<p>" + activiteit[4] + "</p>" : "<p></p>";
+        return result;
     }
 }
