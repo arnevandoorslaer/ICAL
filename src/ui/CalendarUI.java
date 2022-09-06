@@ -10,20 +10,23 @@ public class CalendarUI {
     static final String NL = "\r\n";
     private static final MonthConverter mc = new MonthConverter();
     private final Calendar calendar;
-    private final XMLReader xmlReader = new XMLReader("D:\\Users\\vando\\Documents\\Programming\\PersonalProjects\\ICAL\\src\\kalender.xml");
+    private final XMLReader xmlReader = new XMLReader("C:\\Users\\vando\\Programming\\ICAL\\src\\kalender.xml");
     private final ArrayList<String> activiteiten = xmlReader.getXmlArray();
 
-    private final String[] geenActiviteit = {"GEEN ACTIVITEIT", "EXAMENS LEIDING"};
+    private final String[] geenActiviteit = {"GEEN ACTIVITEIT", "EXAMENS LEIDING", "GEEN ACTIVITEIT (SCHOOLFEEST STAP VOOR STAP)","GEEN ACTIVITEIT (PASEN)"};
     private final String[] meerdaagse = {"WEEKEND", "KAMP", "OPKIKKER", "SLAAPFEESTJE"};
 
     private final String name;
 
     public CalendarUI(String name) {
         this.name = name;
+        System.out.println(name);
         calendar = new Calendar(name);
     }
 
     public void fill(String begin, String end) {
+        System.out.println(activiteiten);
+
         for (String item : activiteiten) {
             if (Character.isDigit(item.charAt(0))) {
                 item = "Zaterdag " + item;
@@ -43,6 +46,7 @@ public class CalendarUI {
             String DTEND;
 
             if (!Arrays.asList(geenActiviteit).contains(naam.toUpperCase())) {
+                System.out.println(activiteit[1]);
                 locatie = activiteit[2].replace('–', '-');
                 wie = activiteit[3];
 
