@@ -1,14 +1,15 @@
 export class Activiteit {
 
-  public uur;
-  public beginUur;
-  public eindUur;
-  public beginDatum;
-  public eindDatum;
-  public beginDag;
-  public beginMaand;
-  public eindDag;
-  public eindMaand;
+  public uur: string;
+  public beginUur: string;
+  public eindUur: string;
+  public beginDatum: string;
+  public eindDatum: string;
+  public beginDag: string;
+  public beginMaand: string;
+  public eindDag: string;
+  public eindMaand: string;
+  public jaar: string;
   constructor(
     public datum: string,
     public activiteit: string,

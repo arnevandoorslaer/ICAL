@@ -4,6 +4,11 @@
     "outDir": "./dist",
     "module": "commonjs",
     "sourceMap": true,
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "target": "es2021",
   },
   "include": [ 
       "lib"

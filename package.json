@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-    "scripts": {
+  "scripts": {
     "start": "npm run build && node ./bin/server.js",
     "bootstrap": "npm ci",
     "build": "shx rm -rf dist && npm run build:ts",
@@ -26,8 +26,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "crypto": "^1.0.1",
     "ical-generator": "^3.5.1",
-    "read-excel-file": "^5.4.7"
+    "read-excel-file": "^5.4.7",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.44",
