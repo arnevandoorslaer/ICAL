@@ -34,8 +34,6 @@ const first = "BEGIN:VCALENDAR\n" +
 // File path.
 export function launch() {
   readXlsxFile('kalender.xlsx').then((rows) => {
-    // `rows` is an array of rows
-    // each row being an array of cells.
     createCalender(rows)
   })
 }
@@ -51,9 +49,6 @@ function createCalender(rows) {
 
 
   fs.writeFile('kalender.ics', calender, (err) => {})
-  console.log(calender)
-
-  // console.log(events.map(event => event.toString()))
 }
 
 
@@ -145,19 +140,3 @@ function createEvent(activiteit) {
   return new ActiviteitEvent(DTSTART,DTEND,SUMMARY,LOCATION,DESCRIPTION);
 
 }
-
-
-// const calendar = ical({name: 'my first iCal'});
-// const startTime = new Date();
-// const endTime = new Date();
-// endTime.setHours(startTime.getHours()+1);
-// calendar.createEvent({
-//     start: startTime,
-//     end: endTime,
-//     summary: 'Example Event',
-//     description: 'It works ;)',
-//     location: 'my room',
-//     url: 'http://sebbo.net/'
-// });
-
-// console.log(calendar)
