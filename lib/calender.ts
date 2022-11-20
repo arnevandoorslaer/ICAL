@@ -49,7 +49,7 @@ export class Calender {
     );
   
     fs.writeFile('KLJKalender.ics', calender, (err) => {});
-    fs.writeFile('index.html', formatted[0].printHTML(), (err) => {});
+    // fs.writeFile('index.html', formatted[0].printHTML(), (err) => {});
   }
   
    formatActiviteit(activiteit) {
@@ -157,7 +157,7 @@ export class Calender {
   
     const DESCRIPTION = (
       (activiteit.leeftijdsgroep ? 'Wie: ' + activiteit.leeftijdsgroep : '') +
-      (activiteit.meebrengen ? 'Extra: ' + activiteit.meebrengen : '')
+      (activiteit.meebrengen ? (activiteit.leeftijdsgroep ? '\\n' : '') + 'Extra: ' + activiteit.meebrengen : '')
     ).trim();
     const SUMMARY = activiteit.activiteit ?? '';
     const LOCATION = activiteit.plaats ? 'Waar: ' + activiteit.plaats : '';
