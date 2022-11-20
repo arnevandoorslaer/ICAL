@@ -152,7 +152,7 @@ export class Calender {
   
     if (activiteit.eindMaand) {
       DTSTART = startDate + 'T' + '000000';
-      DTEND = Number(endDate) + 1 + 'T' + '235959';
+      DTEND = Number(endDate) + 'T' + '235959';
     }
   
     const DESCRIPTION = (
