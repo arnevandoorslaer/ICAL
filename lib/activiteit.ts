@@ -17,4 +17,15 @@ export class Activiteit {
     public leeftijdsgroep: string,
     public meebrengen: string)
     { }
+
+    public printHTML() {
+      let result = "<div>";
+      result += "<p>" + this.datum + "</p>";
+      result += "<p>" + this.activiteit + "</p>";
+      result += this.plaats ? "<p>" + this.plaats + "</p>" : "<p></p>";
+      result += this.leeftijdsgroep  ? "<p>" +this.leeftijdsgroep + "</p>" : "<p></p>";
+      result += this.meebrengen ? "<p>" + this.meebrengen + "</p>" : "<p></p>";
+      result += "</div>";
+      return result;
+  }
 }
