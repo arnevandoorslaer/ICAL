@@ -163,7 +163,7 @@ function createEvent(activiteit) {
   }
 
   const DESCRIPTION = (
-    (activiteit.leeftijdsgroep ? 'Wie: ' + activiteit.leeftijdsgroep : '') +
+    (activiteit.leeftijdsgroep ? 'Wie: ' + activiteit.leeftijdsgroep : ' ') +
     (activiteit.meebrengen ? 'Extra: ' + activiteit.meebrengen : '')
   ).trim();
   const SUMMARY = activiteit.activiteit ?? '';
